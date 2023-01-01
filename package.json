@@ -6,14 +6,27 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.scss": "npm run lint:fix"
   },
   "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "lerna": "^6.3.0"
+    "lerna": "^6.3.0",
+    "lint-staged": "^13.1.0"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "husky": "^8.0.2"
+  }
 }
