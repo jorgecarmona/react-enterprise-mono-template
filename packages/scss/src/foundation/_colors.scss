@@ -1,0 +1,60 @@
+/**
+ *
+ * This file defines the colors that will be used for styling mainly for ATOMS. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ *
+ */
+
+/*=============================================
+ =            Global text colors               =
+ =============================================*/
+
+$body-text-color: var(--jce-body-text-color, $dark) !default;
+$body-bg-color: var(--jce-body-bg-color, $white) !default;
+
+/*=============================================
+ =            Buttons                          =
+ =============================================*/
+
+$btn-primary-color: var(--jce-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--jce-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--jce-btn-primary-bg-hover, $green-light) !default;
+
+$btn-secondary-color: var(--jce-btn-secondary-color, $white) !default;
+$btn-secondary-bg: var(--jce-btn-secondary-bg, $dark) !default;
+
+/*=============================================
+ =            Forms                            =
+ =============================================*/
+
+$form-color: var(--jce-form-color, $dark) !default;
+$form-bg: var(--jce-form-bg, $white) !default;
+$form-error-color: var(--jce-form-error-color, $red) !default;
+$form-error-border: var(--jce-form-error-border, $red) !default;
+$form-border-focus-color: var(--jce-form-border-focus-color, $green) !default;
+
+/*=============================================
+ =            Body                             =
+ =============================================*/
+
+$body-font-size: var(--jce-body-font-size, $fs-base) !default;
+$body-font-weight: var(--jce-body-font-weight, $fw-normal) !default;
+
+/*=============================================
+ =            Headings                         =
+ =============================================*/
+
+$h-1-font-size: var(--jce-h1-font-size, $h-1) !default;
+$h-2-font-size: var(--jce-h2-font-size, $h-2) !default;
+$h-3-font-size: var(--jce-h3-font-size, $h-3) !default;
+$h-4-font-size: var(--jce-h4-font-size, $h-4) !default;
+$h-5-font-size: var(--jce-h5-font-size, $h-5) !default;
+$h-6-font-size: var(--jce-h6-font-size, $h-6) !default;
+
+$h1-font-weight: var(--jce-h1-font-weight, $fw-medium) !default;
+$h2-font-weight: var(--jce-h2-font-weight, $fw-medium) !default;
+$h3-font-weight: var(--jce-h3-font-weight, $fw-medium) !default;
+$h4-font-weight: var(--jce-h4-font-weight, $fw-normal) !default;
+$h5-font-weight: var(--jce-h5-font-weight, $fw-normal) !default;
+$h6-font-weight: var(--jce-h6-font-weight, $fw-light) !default;

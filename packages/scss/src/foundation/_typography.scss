@@ -1,0 +1,59 @@
+/*=============================================
+=            Foundation - Typography          =
+=============================================*/
+
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+
+/*=============================================
+ =            Body text sizes                  =
+ =============================================*/
+
+$body-font-size: var(--jce-body-font-size, $fs-sm) !default;
+$body-font-weight: var(--jce-body-font-weight, $fw-normal) !default;
+
+/*=============================================
+ =            Heading line-heights             =
+ =============================================*/
+
+$h-1-line-height: var(--jce-h1-line-height, $h1-line-height) !default;
+$h-2-line-height: var(--jce-h2-line-height, $h2-line-height) !default;
+$h-3-line-height: var(--jce-h3-line-height, $h3-line-height) !default;
+$h-4-line-height: var(--jce-h4-line-height, $h4-line-height) !default;
+$h-5-line-height: var(--jce-h5-line-height, $h5-line-height) !default;
+$h-6-line-height: var(--jce-h6-line-height, $h6-line-height) !default;
+
+/*=============================================
+ =            Heading line-heights             =
+ =============================================*/
+
+$h-1-letter-spacing: var(--jce-h1-letter-spacing, $h1-letter-spacing) !default;
+$h-2-letter-spacing: var(--jce-h2-letter-spacing, $h2-letter-spacing) !default;
+$h-3-letter-spacing: var(--jce-h3-letter-spacing, $h3-letter-spacing) !default;
+$h-4-letter-spacing: var(--jce-h4-letter-spacing, $h4-letter-spacing) !default;
+$h-5-letter-spacing: var(--jce-h5-letter-spacing, $h5-letter-spacing) !default;
+$h-6-letter-spacing: var(--jce-h6-letter-spacing, $h6-letter-spacing) !default;
+
+/*=============================================
+ =            Heading text sizes               =
+ =============================================*/
+
+$h-1-font-size: var(--jce-h1-font-size, $h-1) !default;
+$h-2-font-size: var(--jce-h2-font-size, $h-2) !default;
+$h-3-font-size: var(--jce-h3-font-size, $h-3) !default;
+$h-4-font-size: var(--jce-h4-font-size, $h-4) !default;
+$h-5-font-size: var(--jce-h5-font-size, $h-5) !default;
+$h-6-font-size: var(--jce-h6-font-size, $h-6) !default;
+
+/*=============================================
+ =            Heading font weights             =
+ =============================================*/
+
+$h-1-font-weight: var(--jce-h1-font-weight, $fw-black) !default;
+$h-2-font-weight: var(--jce-h2-font-weight, $fw-semibold) !default;
+$h-3-font-weight: var(--jce-h3-font-weight, $fw-bold) !default;
+$h-4-font-weight: var(--jce-h4-font-weight, $fw-medium) !default;
+$h-5-font-weight: var(--jce-h5-font-weight, $fw-normal) !default;
+$h-6-font-weight: var(--jce-h6-font-weight, $fw-light) !default;
