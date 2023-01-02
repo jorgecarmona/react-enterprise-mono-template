@@ -6,6 +6,9 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "build": "npx lerna run build",
+    "lint": "stylelint \"./**/*.scss\" --custom-syntax postcss-scss",
+    "lint:fix": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
@@ -19,14 +22,12 @@
   },
   "keywords": [],
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "husky": "^8.0.2",
     "lerna": "^6.3.0",
     "lint-staged": "^13.1.0"
   },
   "workspaces": [
     "packages/*"
-  ],
-  "devDependencies": {
-    "husky": "^8.0.2"
-  }
+  ]
 }
